@@ -16,26 +16,29 @@ body {
         "nav nav nav nav"
         "content content content content"
         "footer footer footer footer";
+        justify-content: stretch;
+
     }
 
     .header {
         grid-area: header;
-        justify-self: center;
+        
+        
     }
 
     .nav {
         grid-area: nav;
-        justify-self: center;
+        
     }
 
     .content {
         grid-area: content;
-        justify-self: center;
+        
     }
 
     .footer {
         grid-area: footer;
-        justify-self: center;
+        
     }
 
 
