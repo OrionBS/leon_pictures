@@ -1,0 +1,34 @@
+/* Retrait de la margin naturelle du body + mise en place d'une police général */
+body {
+	margin: 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* MEDIA QUERIES RULES */
+@media all and (min-width: 1200px) {
+
+
+
+}
+@media all and (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+
+}
+@media all and (min-width: 576px) and (max-width: 768px) {
+
+
+}
+@media all and (max-width: 576px) {
+
+
+}
+
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Itim', cursive;
+
+    font-family: 'Ubuntu', sans-serif;
