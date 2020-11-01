@@ -41,6 +41,10 @@ body {
         grid-area: ft;
         justify-self: center;
     }
+	
+    #title {
+    	font-family: 'Itim', cursive;
+    }
 
 
 }
