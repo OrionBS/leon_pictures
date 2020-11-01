@@ -12,33 +12,34 @@ body {
         grid-template-columns: auto auto auto auto;
         grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(100px, auto) minmax(100px, auto);
         grid-template-areas: 
-        "header header header header"
-        "nav nav nav nav"
-        "content content content content"
-        "footer footer footer footer";
+        "hd hd hd hd hd hd hd hd hd hd hd hd hd hd hd hd"
+        "nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav nav"
+        "ctt ctt ctt ctt ctt ctt ctt ctt ctt ctt ctt ctt ctt ctt ctt ctt"
+        "ft ft ft ft ft ft ft ft ft ft ft ft ft ft ft ft";
         justify-content: stretch;
 
     }
 
     .header {
-        grid-area: header;
-        
+        grid-area: hd;
+        justify-self: center;
+
         
     }
 
     .nav {
         grid-area: nav;
-        
+        justify-self: center;
     }
 
     .content {
-        grid-area: content;
-        
+        grid-area: ctt;
+        justify-self: center;
     }
 
     .footer {
-        grid-area: footer;
-        
+        grid-area: ft;
+        justify-self: center;
     }
 
 
