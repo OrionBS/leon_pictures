@@ -23,9 +23,25 @@ body {
     .header {
         grid-area: hd;
         justify-self: center;
-
+	display: grid;
+    	grid:
+	"hL hT hI" minmax(50px, auto)
+    	/ 1fr 1fr 1fr;   
         
     }
+	.headerLinkedin {
+		grid-area: hL;
+	}
+	
+	.headerTitle {
+		grid-area: hT;
+		font-family: 'Caveat', cursive;
+		font-size: 200px;
+	}
+	
+	.headerInstagram {
+		grid-area: hI;
+	}
 
     .nav {
         grid-area: nav;
@@ -42,9 +58,7 @@ body {
         justify-self: center;
     }
 	
-    #title {
-    	font-family: 'Caveat', cursive;
-    }
+    
 
 
 }
