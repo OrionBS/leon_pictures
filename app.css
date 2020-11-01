@@ -10,7 +10,7 @@ body {
     .container {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        grid-template-rows: minmax(100px, auto);
+        grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(100px, auto) minmax(100px, auto);
         grid-template-areas: 
         "header header header header"
         "nav nav nav nav"
@@ -20,18 +20,22 @@ body {
 
     .header {
         grid-area: header;
+        justify-self: center;
     }
 
     .nav {
         grid-area: nav;
+        justify-self: center;
     }
 
     .content {
         grid-area: content;
+        justify-self: center;
     }
 
     .footer {
         grid-area: footer;
+        justify-self: center;
     }
 
 
